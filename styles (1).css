@@ -1,0 +1,61 @@
+.body-class {
+    background-color: #f0f0f5;
+}
+
+.header-class {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-class {
+    background-color: #555;
+    color: #fff;
+}
+
+.nav-class a.active {
+    font-weight: bold;
+}
+
+.title-class, .section-title-class {
+    color: #4CAF50;
+}
+
+.text-class {
+    color: #333;
+}
+
+.image-class {
+    border: 2px solid #ddd;
+}
+
+.form-class {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button-class {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-class {
+    background-color: #222;
+    color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .nav-class, .footer-class {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .image-class {
+        width: 100%;
+        height: auto;
+    }
+}
