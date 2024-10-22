@@ -53,9 +53,28 @@
         text-align: center;
         padding: 10px 0;
     }
-    
     .image-class {
         width: 100%;
         height: auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .nav-class {
+        padding: 15px;
+    }
+    .image-class {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    .nav-class {
+        padding: 20px;
+    }
+    .image-class {
+        width: 60%;
+        margin: auto;
     }
 }
