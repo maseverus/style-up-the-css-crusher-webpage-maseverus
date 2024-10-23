@@ -17,35 +17,43 @@
 }
 
 .title-class, .section-title-class {
-    color: #3CAF40;
+    color: #C8A2C8;
 }
 
 .text-class {
-    color: #333;
+    color: #001f3f;
 }
 
 .image-class {
-    border: 2px solid #ddd;
+    border: 2px solid #C8A2C8;
 }
 
 .form-class {
-    background-color: #f9f9f9;
+    background-color: #f5f5dc;
     padding: 10px;
     border-radius: 5px;
+    border: 1px solid #C8A2C8;
 }
 
 .button-class {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #001f3f;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-class:hover {
+    background-color: #003366;
 }
 
 .footer-class {
-    background-color: #222;
-    color: #ccc;
+    background-color: #001f3f;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
